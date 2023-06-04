@@ -68,37 +68,9 @@
 							<li><a href="https://drive.google.com/file/d/1CuZgdn9IQkrxKZRez6PCk-hp2cKrz3lC/view?usp=share_link" class="button">Learn More</a></li>
 						</ul>
 					</section>
-		
+
 				<!-- Three -->
 					<section id="three">
-						<h2>Machine Learning Portfolio</h2>
-						<div class="row">
-							<article class="col-6 col-12-xsmall work-item">
-								<a href="images/fulls/ChatGPT.jpg" class="image fit thumb"><img src="images/thumbs/ChatGPT.jpg" alt="" /></a>
-								<h3>Q&AI: using supervised ML in Python to detect AI-generated text </h3>
-								<p>
-								In this project, I trained a supervised machine learning model (Naive Bayes) affectionately named 
-							 	‘Q&AI’ that classifies textual data as human- or AI-generated. I randomly drew 'n' words from a 
-								database of English words with broadly-understood topics (e.g. airplane, Congress, apple). 
-								I used the Wikipedia API to request a text abstract on each topic in json format. 
-								This is our human-generated text. I then used the OpenAI API to request a short 
-								summary on each topic from ChatGPT in json format. This is our AI-generated text. The bag-of-words (BOW) 
-								model was chosen to transform the text into numerical arrays. In the BOW model, features of 
-								the dataset are single words or pairs of words. The numerical value assigned to each feature 
-								corresponds to the number of times that the respective word appears in a sample. 
-								The TF-IDF (term frequency times inverse document frequency) correction is applied to the 
-								arrays to reduce bias from commonly-used words (the, is) and text length. Subsets of the 
-								labeled numerical data were used to train and test a Naive Bayes classifier. 
-								The previous steps were combined into a pipeline. Optimal model performance was obtained through a 
-								grid search of several tuning parameters. The tuned model was capable of detecting AI-generated text 
-								with an accuracy of 75%! For additional details or to download and run the model yourself, check out my
-								<a href="https://github.com/franciscospauldingastudillo">github</a>.
-								</p>
-							</article>
-					</section>
-
-				<!-- Four -->
-					<section id="four">
 						<h2>Academic Portfolio</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
@@ -181,7 +153,34 @@
 						-->
 					</section>
 
-
+				<!-- Four -->
+					<section id="four">
+						<h2>Machine Learning Portfolio</h2>
+						<div class="row">
+							<article class="col-6 col-12-xsmall work-item">
+								<a href="images/fulls/ChatGPT.jpg" class="image fit thumb"><img src="images/thumbs/ChatGPT.jpg" alt="" /></a>
+								<h3>Q&AI: using supervised ML in Python to detect AI-generated text </h3>
+								<p>
+								In this project, I trained a supervised machine learning model (Naive Bayes) affectionately named 
+							 	‘Q&AI’ that classifies textual data as human- or AI-generated. I randomly drew 'n' words from a 
+								database of English words with broadly-understood topics (e.g. airplane, Congress, apple). 
+								I used the Wikipedia API to request a text abstract on each topic in json format. 
+								This is our human-generated text. I then used the OpenAI API to request a short 
+								summary on each topic from ChatGPT in json format. This is our AI-generated text. The bag-of-words (BOW) 
+								model was chosen to transform the text into numerical arrays. In the BOW model, features of 
+								the dataset are single words or pairs of words. The numerical value assigned to each feature 
+								corresponds to the number of times that the respective word appears in a sample. 
+								The TF-IDF (term frequency times inverse document frequency) correction is applied to the 
+								arrays to reduce bias from commonly-used words (the, is) and text length. Subsets of the 
+								labeled numerical data were used to train and test a Naive Bayes classifier. 
+								The previous steps were combined into a pipeline. Optimal model performance was obtained through a 
+								grid search of several tuning parameters. The tuned model was capable of detecting AI-generated text 
+								with an accuracy of 75%! For additional details or to download and run the model yourself, check out my
+								<a href="https://github.com/franciscospauldingastudillo">github</a>.
+								</p>
+							</article>
+					</section>
+				
 				<!-- Five -->
 				<section id="five">
 						<h2>Get In Touch</h2>
