@@ -1,1 +1,1 @@
-fspauldinga.com is the personal website of Francisco Spaulding-Astudillo. I use the Strata template from HTML5 UP, which is free for personal and commercial use under the CCA 3.0 license (html5up.net/license).
+fspauldinga.com is the personal website of Francisco Spaulding-Astudillo. I use the Editorial template from HTML5 UP, which is free for personal and commercial use under the CCA 3.0 license (html5up.net/license).
